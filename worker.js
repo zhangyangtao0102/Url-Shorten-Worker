@@ -1,5 +1,5 @@
 const config = {
-  password: "", // 管理面板使用密码 // if password != null, then use this config; otherwise, read password from KV.
+  password: "zhangyangtao", // 管理面板使用密码 // if password != null, then use this config; otherwise, read password from KV.
   result_page: false, // 是否用特定的result页面来显示value // After get the value from KV, if use a page to show the result.
   theme: "", // 管理面板的主题 // Homepage theme, use the empty value for default theme. To use urlcool theme, please fill with "theme/urlcool" .
   cors: true, // 是否允许CORS使用API // Allow Cross-origin resource sharing for API requests.
@@ -17,8 +17,8 @@ const protect_keylist = [
   "password",
 ]
 
-let index_html = "https://crazypeace.github.io/Url-Shorten-Worker/" + config.theme + "/index.html"
-let result_html = "https://crazypeace.github.io/Url-Shorten-Worker/" + config.theme + "/result.html"
+let index_html = "https://zhangyangtao0102.github.io/Url-Shorten-Worker/" + config.theme + "/index.html"
+let result_html = "https://zhangyangtao0102.io/Url-Shorten-Worker/" + config.theme + "/result.html"
 
 const html404 = `<!DOCTYPE html>
   <html>
